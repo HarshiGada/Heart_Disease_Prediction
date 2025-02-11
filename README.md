@@ -22,10 +22,15 @@ Model Training & Evaluation
 The following machine learning models were implemented and evaluated:
 
 K-Nearest Neighbors (KNN): Used KNeighborsClassifier with k=3
+
 Decision Tree Classifier: Used DecisionTreeClassifier with different max depths
+
 Random Forest Classifier: Used RandomForestClassifier with different numbers of estimators
+
 Logistic Regression: Trained a LogisticRegression model with max_iter=1000
+
 Support Vector Machine (SVM):Used SVC with a linear kernel
+
 Neural Network: Built a Sequential model using TensorFlow/Keras, Included hidden layers with ReLU activation and a sigmoid output layer
 
 Dependencies
